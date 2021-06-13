@@ -1,0 +1,328 @@
+.intro{
+    padding: 0;
+    height: 850px;
+    width:100%;
+    background-image: url(./assets/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+#logo{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: medium;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-top: 0%;
+    padding-top: 10%;
+}
+.container {
+    padding-top: 0;
+  }  
+#packages{
+    display: flex;
+}
+#packages>div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+#fastFoods{
+    display: flex;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+    #descriptions {
+      padding-top: 0;
+    }
+
+    #menu{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    height: 50px;
+    width: 75px;
+    }
+    #meal0{
+    padding: 0;
+    }
+    
+    #drimage{
+    padding: 0;
+    }
+    #meal-0{
+    background-color:#F15A29;
+    }
+    #meal1{
+        padding: 0;
+    }
+    #happy{
+    height: 119px;
+    width:300px;
+    }
+    
+    #disptext {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:rgba(0, 0, 0, 0.0);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    }
+    
+    #meal1:hover #disptext {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:rgba(250,250,250,0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    }
+    #meal1:hover #content {
+    color: #000000;
+    }
+    
+    #content1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 16px 32px;
+    white-space: nowrap;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    }
+    #response h1{
+    text-align: center;
+    padding-top: 5%;
+    color: #ffffff;
+    }
+    #content1{
+    padding: 5%;
+    text-align: left;
+    }
+    #imgs{
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 30%;
+        margin-top: 10%;
+        padding:0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 5px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #content2{
+    padding: 5%;
+    text-align: right;
+    }
+    #content3{
+    padding: 5%;
+    text-align: center;
+    }
+    
+    #fastFood{
+    display: flex;
+    }
+    #imgs{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding:0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #rect{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #varieties{
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
+    opacity: 0.9;
+}
+    
+    #components{
+        height: 400px;
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #ffffff;
+    }
+    #FastFoods{
+        text-align: center;
+        padding: 50px;
+    }
+    #varHead{
+    height: 60px;
+    width: 100%;
+    background-color: #ccc;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
+    #nav ul{
+     display:flex;
+    
+    }
+    #nav ul li{
+        list-style: none;
+        justify-content: space-between;
+        padding-right: 120%;
+    
+    }  
+    #Customers{
+        display: flex;
+        justify-content: space-between;
+        padding: 10%;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }  
+    
+    #description{
+        font-display: flex;
+    }
+    #response{
+        padding: 0;
+        height: 300px;
+        width:100%;
+        background-image: url(./assets/backgrounds/subscribe.jpg);
+         background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        justify-items: center;
+
+        }
+    #email{
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: transparent;
+    }
+    .formStyle {
+    margin: 20px;
+    background:rgba(250,250,250,0.5);
+    padding: 6px;
+    width: 40%;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+    border-bottom-color: #ecf0f1;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    }
+    
+    .formButton {
+    margin: 20px;
+    background-color:#F15A29;
+    display:inline-block;
+    color:#ffffff;
+    font-size:28px;
+    font-weight: 500;
+    padding:6px 50px;
+    text-decoration:none;
+    border-radius: 5px;
+    }
+    
+    .formButton:hover {
+    background-color: #27ae60;
+    color:#ffffff;
+    }
+    
+    .formButton:active {
+    position:relative;
+    top:3px;
+    }
+    input:focus {
+    outline: none;
+    }
+    
+    ::-webkit-input-placeholder {
+    color: #ecf0f1;
+    }
+    
+    :-moz-placeholder {
+    color: #ecf0f1;
+    }
+    
+    ::-moz-placeholder
+    {
+    color: #ecf0f1;
+    }
+    
+    :-ms-input-placeholder {
+    color: #ecf0f1;
+    }
+    #footer{
+    padding: 0;
+    height: 300px;
+    width:100%;
+    background-color:#F15A29;
+    }
+    #socialmedia{
+    text-align: center;
+    margin-top: 3%;
+    color: #ffffff;
+    }
+    .button {
+        border: none;
+        color: #F15A29;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        }
+        
+        .button1 {
+        background-color: white;
+        color: #F15A29;
+        border: 2px solid #F15A29;
+        }
